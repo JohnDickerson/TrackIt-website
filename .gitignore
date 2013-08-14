@@ -1,0 +1,14 @@
+# Directories to ignore
+.hg
+.svn
+.CVS
+.idea
+
+# Files to ignore
+*~
+*.swp
+*.swo
+
+# Linux/OSX artifacts
+.DS_Store
+Thumbs.db

@@ -1,0 +1,234 @@
+/* Baseline CSS appropriated from http://webcloud.se/ --- Thank you! */
+
+/* CMU colors: http://www.cmu.edu/marcom/brand-guidelines/print-web-products/web/index.html */
+
+/* Reset browser-specific values to nil */
+html, body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0;}table{border-collapse:collapse;border-spacing:0;}fieldset,img{border:0;}address,caption,cite,code,dfn,strong,th,var{font-style:normal;font-weight:normal;}li{list-style:none;}caption,th{text-align:left;}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}q:before,q:after{content:'';}abbr,acronym{border:0;font-variant:normal;}sup{vertical-align:text-top;}sub{vertical-align:text-bottom;}input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;}input,textarea,select{*font-size:100%;}legend{color:#000;}
+
+/* Full-page settings, cascades to all elements */
+html,body  {background:#f3f0e9; -webkit-text-size-adjust:none;}
+html {width:100%; height:100%;}
+body {padding: 20px;font: 14px/1.4 Georgia, serif; color:#464646;}
+
+#wrap {width: 940px; margin:30px auto 0; position:relative;}
+#wrap #header {color: #464646; border-top:2px solid #333; position:relative; border-bottom: 1px solid #aaa; padding:20px 0; display:block; overflow:hidden;}
+#wrap #header span {color: #990000;}
+
+/* Big chunks of the page, separating major changes in content */
+#preamble {font-size: 20px; float: left; width: 380px; position: absolute; bottom: 20px;}
+#content {overflow: hidden;}
+#primary {width: 480px; float:left;}
+#secondary {width:400px; float: right;}
+
+
+/* Headers */
+h1, h2, h3 {
+    font: normal 100px/1.2 'Francois One', Arial, sans-serif;
+}
+
+h1 {
+    float: right;
+    line-height:0.8;
+    text-transform:uppercase;
+}
+
+h2 {
+    font-size: 32px;
+    margin: 40px 0 20px;
+}
+
+h2 span {
+    color: #c1a562; 
+    font-size:100px; 
+    text-shadow: 1px 1px 1px #aaa;
+}
+
+h3 {
+    font-size: 16px;
+    font-family: 'Francois One', Arial, sans-serif;
+    font-weight: bold;
+    margin: 20px 0 10px;
+}
+
+a {
+    color: #990000; 
+    text-decoration: none;
+}
+
+a:active {
+    color: #ffffff;
+}
+
+a:hover {
+    color: #464646;
+}
+
+
+
+
+.codelike {
+    font-family: monaco, monospace;
+}
+
+/* Primary-specific settings */
+#primary p {
+    text-indent: 2.0em;
+}
+
+#primary p + p {
+    margin-top: 1.0em;
+}
+
+#primary .picturebox {
+    margin: 60px 60px;
+    vertical-align: middle;
+}
+
+#primary .picturebox p {
+    text-indent: 0.0em;
+    font-style: italic;
+    font-size: 12px;
+    text-align: center;
+}
+
+#primary .picturebox img {
+
+}
+
+
+/* Secondary (Features)-specific settings */
+#secondary p{
+    color: #d4d4d4;
+}
+
+/* Download button, no image */
+.spacer { margin: 40px 0px; }
+.centered { margin-left: 120px; margin-right: auto; }
+.download {overflow:hidden; }
+.download .btn {
+    display: inline-block;
+    margin:5px 0;
+    text-decoration:none; padding: 15px 30px;
+    color: #fff;
+    box-shadow: 0px 0px 3px #aaa;
+    -webkit-box-shadow: 0px 0px 3px #aaa;
+    -moz-box-shadow: 0px 0px 3px #aaa;
+    border-radius:4px;
+    -webkit-border-radius:4px;
+    -moz-border-radius: 4px;
+    background: #990000;
+    background: -moz-linear-gradient(#cc9999, #990000);
+    background: -webkit-gradient(linear, left top, left bottom, from(#990000), to(#cc99999));
+    text-shadow: 1px 1px 1px #000;
+    border: 1px solid #fff;
+}
+.download .btn:hover {
+    background: #cc0000;
+    background: -moz-linear-gradient(#ffcccc, #cc0000);
+    background: -webkit-gradient(linear, left top, left bottom, from(#cc0000), to(#ffcccc));
+}
+.download .btn:active {
+    background: #ccc;
+    background-image: -moz-linear-gradient(#eee, #ccc);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#eee), to(#ccc));
+}
+.download span {margin-left: 10px; vertical-align:bottom;}
+.download span a {vertical-align: bottom;}
+
+
+/* Right-hand side colored box */
+#features .box {background: #7493a2; padding:30px; border:1px solid #BFB470; border-width: 0 1px 1px 0;}
+#features h3 a {color: #80784B; text-decoration:none;}
+#features h3:first-child {margin-top:0;}
+#features h3:last-child {margin-bottom:0;}
+
+/* Publications Section */
+#pubs_block {clear: both; padding-top: 10px;}
+#pubs_block h2:first-child {margin:0;}
+#pubs_block h3 {color: #f3f0e9;}
+#pubs_block h3:first-child {margin-top:0;}
+#pubs_block .box {background: #674c56; border: 1px solid #628066; border-width: 0 1px 1px 0; padding: 30px; overflow:hidden; margin-bottom:0px;}
+#pubs_block .box .col {width:419px; float:left; margin-left:40px;}
+#pubs_block .box .col:first-child {margin-left: 0px;}
+.emph { font-style: italic; }
+#pubs_block p {margin:20px 0; color: #f3f0e9;}
+#pubs_block ul {list-style-type:circle; display:block;}
+#pubs_block li {margin: 0px 20px; list-style-type:circle; color: #f3f0e9;}
+#pubs_block a {color: #f3f0e9;}
+
+
+/* How-To Section */
+#tertiary {clear: both; padding-top: 10px;}
+#tertiary h2:first-child {margin:0;}
+#tertiary h3 {color: #f3f0e9;}
+#tertiary h3:first-child {margin-top:0;}
+#tertiary .box {background: #990000; border: 1px solid #628066; border-width: 0 1px 1px 0; padding: 30px; overflow:hidden; margin-bottom:0px;}
+#tertiary .box .col {width:419px; float:left; margin-left:40px;}
+#tertiary .box .col:first-child {margin-left: 0px;}
+.emph { font-style: italic; }
+#tertiary p {margin:20px 0; color: #f3f0e9;}
+#tertiary ul {list-style-type:circle; display:block;}
+#tertiary li {margin: 0px 20px; list-style-type:circle; color: #f3f0e9;}
+#tertiary a {color: #f3f0e9;}
+
+
+
+
+/* How-To Section */
+#tertiary-2 {clear: both; padding-top: 20px;}
+#tertiary-2 h2:first-child {margin:0;}
+#tertiary-2 h3 {color: #464646;} /*#f3f0e9;}*/
+#tertiary-2 h3:first-child {margin-top:0;}
+#tertiary-2 .box {background: #999933; border: 1px solid #628066; border-width: 0 1px 1px 0; padding: 30px; overflow:hidden; margin-bottom:40px;}
+#tertiary-2 .box .col {width:419px; float:left; margin-left:40px;}
+#tertiary-2 .box .col:first-child {margin-left: 0px;}
+#tertiary-2 p {margin:20px 0; color: #f3f0e9;}
+#tertiary-2 p span{font-style: italic;}
+
+
+/* Questions section (quaternary) */
+#quaternary {width: 480px; float:left; padding-top: 20px;}
+#quaternary .box {
+	padding: 30px;
+	background: #d17702;
+	border: 1px solid #BFB470; 
+	border-width: 0 1px 1px 0;
+}
+#quaternary h2:first-child {margin:0;}
+#quaternary h3 {text-decoration:none;}
+#quaternary h3:first-child {margin-top:0;}
+#quaternary p { color: #d4d4d4; }
+
+
+/* Affiliation bar (quinary) */
+#quinary {width: 400px; float:right; padding-top: 20px;}
+#quinary h2:first-child {margin:0;}
+#quinary .box {
+	padding: 0px;
+	padding-top: 0px;
+	border: none;
+}
+
+
+
+/* Navigation Bar */
+#crumb {
+    position: absolute;
+    left: 0;
+    top: -32px;
+    overflow: hidden;
+}
+
+#navlist {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#navlist li {
+    border-left: 1px solid #000000;
+    float: left;
+    line-height: 1.1em;
+    margin: 0 .5em 0 -.5em;
+    padding: 0 .5em 0 .5em;
+}

@@ -1,0 +1,229 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"  xml:lang="en">
+
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <title>Track-It &#8212; Carnegie Mellon University</title>
+    <link rel="stylesheet" type="text/css" href="styles/style.css" />
+    <link href="http://fonts.googleapis.com/css?family=Francois+One&amp;v2" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-24935667-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+  </head>
+
+
+
+  <body>
+    <div id="wrap">
+
+    <div id="crumb">
+      <ul id="navlist">
+	<li><a href="#about">About</a></li>
+	<li><a href="#usage">Usage</a></li>
+	<li><a href="#downloads">Download</a></li>
+	<li><a href="#questions">Questions?</a></li>
+      </ul>
+    </div>
+
+    <div id="header">
+      <h1>Track-It!</h1>
+      <div id='preamble'>
+        A modular, open source software suite that measures sustained selective attention in children.
+      </div>
+    </div>
+    
+    <div id="content">
+
+      <!-- Left-hand main column -->
+      <div id="primary">
+	<a id="about"></a>
+	<h2>What is Track-It?</h2>
+	<p>Track-It was created specifically to investigate mechanisms of sustained selective attention with young children.</p>
+	<p>Track-It presents the participant with a grid, with each of the grid locations optionally identified by a background image, and a target object moving on the grid along a random trajectory. Participants are asked to visually track the target and identify the grid location last visited by the target before it disappears. The moving target in this task can be accompanied by distracters, also moving along a random trajectory. Target and distracter objects are optionally randomly selected on each trial from a pool of 72 unique objects. After each trial, all possible distracter and target objects are (optionally) displayed, and the participant is asked to identify which one he or she tracked.</p>
+	<div class="picturebox">
+	  <a href="images/trackit_trial_nocolor.png"><img src="images/trackit_trial_nocolor_360.png" alt="Track-It Main Trial Screen"/></a>
+	  <p>Immediately before a trial begins, six distractors, 3x3 grid.</p>
+	</div>
+      </div>
+      
+      <!-- Right-hand main column -->
+      <div id="secondary">
+
+	<!-- Big button that downloads the .jar file -->
+	<div class="spacer">
+	  <div class="download">
+	    <a id="dl-shortcut"></a>
+            <a href="files/TrackIt_2.0.4.jar" onclick="javascript: _gaq.push(['_trackPageview', '/downloads/TrackIt_2.0.4']);" class="btn">Download v2.0.4</a>
+	    <span>and make sure you have <a href="http://www.java.com/en/download/">Java</a>!</span>
+	  </div>
+	</div>
+
+	<div id="features">
+	  <h2>Features</h2>
+	  <div class="box">
+	    <h3>Free and Open Source</h3>
+	    <div>
+	      <p>Create your own experiments by editing the source code, check the base Track-It code for bugs, redistribute it to your friends!</p>
+	    </div>
+	    <h3>Adjustable Complexity</h3>
+	    <div>
+	      <p>Different age groups can handle different complexity&#8212;adjust the grid sizes, number, type, and speed of distractors, and more!</p>
+	    </div>
+	    <h3>Full Data Recording</h3>
+	    <div>
+	      <p>Everything that you (and your participant) see on the screen is recorded in an easy-to-read and easy-to-parse file.</p>
+	    </div>
+	    <h3>Customizable Experiments</h3>
+	    <div>
+	      <p>You control the trial length, number of trials, which screens are presented to the user, and which (if any) background images are shown.</p>
+	    </div>
+	    <h3>User-Defined Framerate</h3>
+	    <div>
+	      <p>Working on a weird machine with a strange monitor?  Working with Tobii?  Adjust the framerate to match.</p>
+	    </div>
+	    <h3>Active Development</h3>
+	    <div>
+	      <p>We're currently working on integrating directly with Tobii.  If you have other ideas, let us know!</p>
+	    </div>
+	    
+	  </div>
+	</div>
+	
+      </div>
+
+      <div id="pubs_block">
+	<a id="pubs"></a>
+	<h2>Publications</h2>
+	<div class="box">
+	  <h3>Journal Papers</h3>
+	  <ul>
+	    <li>Fisher, A.V., Thiessen, E. D., Godwin, K.E., Kloos, H., &amp; Dickerson, J.P. (in press). Assessing selective sustained attention in 3- to 5-year-old children: Evidence from a new paradigm. <em>Journal of Experimental Child Psychology</em>.</li>
+	  </ul>
+	  <p class="emph">We will post papers online as soon as they become available.  For advance copies, please contact Dr. <a href="http://www.psy.cmu.edu/people/fisher.html">Anna Fisher</a>.</p>
+	</div>
+      </div>
+
+
+      <!-- Bottom, after first two columns.  Big chunk -->
+      <div id="tertiary">
+	<a id="usage"></a>
+	<h2>But how do I <span>use</span> it ...?</h2>
+	<div class="box">
+
+	  <!-- Left-hand mini-column -->
+	  <div class="col">
+	    <h3>Download Track-It</h3>
+	    <ul>
+	      <li><span class="emph">Download</span> a copy of the Track-It software (see <a href="#download">below</a>).</li>
+	      <li>Mac/Windows: <span class="emph">click</span> the download file to open Track-It.</li>
+	      <li>Linux: <span class="emph">run</span> the command <span class="codelike">java -jar TrackIt.jar</span></li>
+	    </ul>
+	    
+	    <h3>Create an Experiment</h3>
+	    <ul>
+	      <li>You'll see a start-up screen with many options.</li>
+	      <li>Fill in the <span class="emph">User Data</span> section for your records only&#8212;this won't affect the actual experiment.</li>
+	      <li>Use the <span class="emph">Trial Data</span> section to specify experimental details (number and type distractors, speeds, trial length, etc).</li>
+	      <li>If you're using Tobii, you may wish to set the Track-It framerate to 60 or 120, depending on your hardware.</li>
+	      <li>Don't worry, we save all of this information to a file for you!</li>
+	      <li>When you're done, click <span class="emph">Begin</span>.  You'll see a pop-up window asking you where to save all the data generated by the experiments.</li>
+	      <li>The experiment begins!</li>
+	    </ul>
+	  </div>
+
+	  <!-- Right-hand mini-column -->
+	  <div class="col">
+	    <h3>Run the Experiment</h3>
+	    <ul>
+	      <li><span class="emph">Spacebar</span> and <span class="emph">clicking</span> move you forward.  <span class="emph">Escape</span> exits the program at any time.</li>
+	      <li>You'll see a grid with some shapes on it.  Press spacebar to make them move.</li>
+	      <li>The shapes disappear eventually; the participant tells you in which grid box the target stopped.  Click to record it.</li>
+	      <li>A smiley face appears.  Click.</li>
+	      <li>If you selected the <span class="emph">Memory Check</span>, the participant will pick out what he or she thinks is the target.  Click on it.</li>
+	      <li>Another smiley face.  Click.</li>
+	      <li>And it's on to the next trial!</li>
+	    </ul>
+
+	    <h3>Analyze the Data</h3>
+	    <ul>
+	      <li>Track-It maintains enough information to <span class="emph">completely reconstruct</span> any experiment.</li>
+	      <li>The data is stored as a structured .csv file, which can be loaded and analyzed in, for example, Excel.</li>
+	    </ul>
+	  </div>
+	  
+	</div>
+      </div>
+
+      <!-- In-depth download history -->
+      <div id="tertiary-2">
+	<a id="downloads"></a>
+	<h2>... and where can I <span>get</span> it?</h2>
+	<div class="box">
+	  
+	  <!-- Left-hand side for the newest .jar -->
+	  <div class="col">
+	    <h3>Newest Version</h3>
+	    <p>This version of Track-It is actively developed and should run on any system&#8212;Mac, Windows, Linux, etc&#8212;that has <a href="http://www.java.com/en/download/">Java</a> installed.</p>
+	    <div class="centered">
+	      <div class="download">
+		<a href="files/TrackIt_2.0.4.jar" onclick="javascript: _gaq.push(['_trackPageview', '/downloads/TrackIt_2.0.4']);" class="btn">Download v2.0.4</a>
+	      </div>
+	    </div>
+	    <p>Download this if you want the newest, most feature-filled Track-It.  Users starting their own research paths or replicating newer results will want to use this version.</p>
+	  </div>
+	  
+	  <!-- Right-hand side for old .jars and the Flash .exe -->
+	  <div class="col">
+	    <h3>Legacy Versions</h3>
+	    <p>This version of Track-It is <span>not actively developed</span> and works natively only on Windows machines.</p>
+	    <div class="centered">
+	      <div class="download">
+		<a href="files/TrackIt_1.0.exe" onclick="javascript: _gaq.puash(['_trackPageview', '/downloads/TrackIt_1.0']);" class="btn">Download v1.0</a>
+	      </div>
+	    </div>
+	    <p>Download this if you wish to replicate past results.  This version lacks several features found in the newer Track-Its and comes <span>as-is</span> with no plans for modifications and no support.</p>
+	  </div>
+	</div>
+      </div>
+
+      <!-- Lowest-most left-hand columns, short -->
+      <div id="quaternary">
+	<a id="questions"></a>
+	<h2>Questions?</h2>
+	<div class="box">
+	  <h3>Is it related to psychology?</h3>
+	  <p>Please contact Dr. <a href="http://www.psy.cmu.edu/people/fisher.html">Anna Fisher</a>, Associate Professor in Developmental Psychology at Carnegie Mellon and the project lead for Track-It.</p>
+	  <h3>Is it related to computers?</h3>
+	  <p>You'll have better luck contacting <a href="http://gannon-house.com">John Dickerson</a>, lead developer on the project.  He's a full-time Ph.D. student in computer science at CMU's <a href="http://www.cs.cmu.edu/~amem/">AMEM</a> and apologizes for any slow response times!</p>
+	</div>
+      </div>
+      
+      <!-- Lowest-most right-hand column, short, for CMU credits -->
+      <div id="quinary">
+	<a id="affiliations"></a>
+	<h2>Developed at:</h2>
+	<div class="box">
+	  <a href="http://www.cmu.edu/"><img src="images/cmu_400.png" alt="Carnegie Mellon University"/></a>
+	</div>
+      </div>
+      
+    </div>
+    
+    </div>
+  </body>
+  
+  <!-- Created by John P. Dickerson on 21 July 2011 -->
+  <!-- Base stylesheet came from http://webcloud.se; thanks! -->
+</html>
